@@ -1,0 +1,32 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Friend app matches friends with similar metrics.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndroidLloydWebber/friend-finder-app.git"
+  },
+  "keywords": [
+    "Friend",
+    "Finder",
+    "App"
+  ],
+  "author": "Android Lloyd Webber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndroidLloydWebber/friend-finder-app/issues"
+  },
+  "homepage": "https://github.com/AndroidLloydWebber/friend-finder-app#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "express": "^4.16.3",
+    "inquirer": "^5.2.0",
+    "jquery": "^3.3.1",
+    "path": "^0.12.7"
+  }
+}
